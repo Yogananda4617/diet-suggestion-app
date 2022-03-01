@@ -1,0 +1,22 @@
+export const SliderData = [
+    {
+      image:
+        'https://media2.s-nbcnews.com/i/newscms/2017_02/1187711/diet-tips-start-today-stock-tease-170112_8b3e9e8e0a55eb52eaa450ac5762f215.jpg'
+    },
+    {
+      image:
+        'http://auntpearliesue.com/wp-content/uploads/2015/01/Healthy-diet-tips-2.jpg'
+    },
+    {
+      image:
+        'http://img.picturequotes.com/2/625/624480/healthy-foods-nutrition-quote-2-picture-quote-1.jpg'
+    },
+    {
+      image:
+        'https://photos.boldsky.com/ph-big/2017/11/10-must-follow-diet-tips-to-fight-endometriosis_151021277560.jpg'
+    },
+    {
+      image:
+        'https://www.fyeye.org/wp-content/uploads/2019/04/1920x1080TechDiet-1.jpg'
+    }
+  ];

@@ -1,0 +1,82 @@
+.days{
+    border: 3px solid rgb(18, 224, 11);
+    padding: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    background-color: rgb(241, 234, 168);
+}
+.dayheader{
+    text-align: center;
+    font-weight:700;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(7, 69, 202);
+    text-shadow: 2px 2px 5px lightgreen;
+}
+.daysideheading{
+    padding-left: 30px;
+    border-left: 3px solid rgb(54, 44, 145);
+    color: rgb(241, 11, 126);
+    margin-left: 30px;
+}
+.daytext{
+    padding: 20px;
+    border-bottom:2px solid rgb(79, 26, 114);
+    margin-bottom: 20px;
+    padding-left: 140px;
+}
+.daysideAdditional{
+    
+    color: rgb(241, 11, 126);
+    margin-left: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    height: 33px;
+}
+.sidetext{
+    padding-left: 0px;
+}
+.intro{
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 1px solid  rgb(241, 234, 168);
+    background-color: rgb(248, 242, 186);
+    
+}
+.introlist{
+    padding-left: 30px;
+}
+.introheading{
+    text-align: center;
+    font-weight:800;
+    font-size: 35px;
+    padding-bottom:30px ;
+    font-style: italic;
+    font-family: sans-serif;
+    padding-top: 30px;
+    color: rgb(167, 37, 37);
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(142, 209, 226);
+    font-size: 40px;
+    
+}
+.button{
+    width:120px;
+    background-color: rgb(147, 253, 161);
+    /* border: 1px solid rgb(62, 225, 236);
+    border-radius: 50%; */
+    color: rgb(6, 21, 105);
+    border: 2px solid rgb(6, 21, 105);
+    border-radius: 10px;
+    padding: 5px;
+    font-family:monospace;
+    margin-left: 70px;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+.recipe{
+    display: flex;
+}

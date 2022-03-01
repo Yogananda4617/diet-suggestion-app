@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+body {
+    padding: 0px;
+    padding-top: 50px;
+    margin: 0px;
+    background: rgb(245, 226, 209);
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+    font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+div#bmrcalc {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+}
+.form {
+    width: 600px;
+    background-color: rgb(242, 252, 152);
+    padding: 20px;
+    border: 5px double #1f1e1e;
+    box-shadow: 0 5px 15px #777777;
+    border-radius: 5px;
+    max-width: 100%;
+    animation: slide-up 0.4s ease;
+}
+
+
+h2 {
+    margin: 0px;
+    text-align: center;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding: 30px;
+    
+}
+
+
+.inputwrap {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+   
+}
+
+.inputwrap label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+input[type="text"],input[type="number"] {
+    padding: 8px 7px;
+    width: 110px;
+    margin-right: 10px;
+    border: 1px solid black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+input[type="text"] {
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 100%;
+    display: block;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    border: none;
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+button {
+    display: block;
+    width: 100%;
+    padding: 10px 1px;
+    background: rgb(59, 28, 233);
+    color: white;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 16px;
+}
+select {
+    padding: 10px 10px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.error {
+    background: rgba(255, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 4px 16px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.result {
+    background: rgba(15, 252, 7, 0.932);
+    color: white;
+    text-align: center;
+    padding: 10px 0px;
+    margin-top: 9px;
+    font-size: 18px;
+    animation: slide-up 0.4s ease;
+}
+
+.workout {
+    margin-top: 19px;
+    animation: slide-up 0.4s ease;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width:500px) {
+
+    div#bmrcalc {
+        align-items: end;
+    }
+}

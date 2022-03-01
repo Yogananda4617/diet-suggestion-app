@@ -1,0 +1,48 @@
+.days{
+    border: 3px solid rgb(18, 224, 11);
+    padding: 25px;
+    margin: 80px;
+    background-color: rgb(241, 234, 168);
+}
+.dayheader{
+    text-align: center;
+    font-weight:700;
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(7, 69, 202);
+    text-shadow: 2px 2px 5px lightgreen;
+}
+.daysideheading{
+    padding-left: 20px;
+    border-left: 3px solid rgb(54, 44, 145);
+    color: rgb(241, 11, 126);
+    margin-left: 20px;
+}
+.daytext{
+    padding: 20px;
+    border-bottom:2px solid rgb(79, 26, 114);
+    margin-bottom: 20px;
+}
+.TBLheading{
+    text-align: center;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: rgb(167, 37, 37);
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(142, 209, 226);
+    font-size: 40px;
+    padding: 20px;
+    padding-top: 30px;
+
+}
+.text{
+    text-align-last: center;
+    font-style: italic;
+    font-family: sans-serif;
+    padding-top: 20px; 
+}
+/* .TheBiggestLoser{
+    background-image: url(https://cdn.apartmenttherapy.info/image/fetch/q_auto,f_auto,fl_strip_profile,w_660,h_440,c_fill/https://s3.amazonaws.com/pixtruder/original_images/b8a05ca9a3af16d3cfac1544584e300f4b3ca5c1);
+    opacity: 0.5;
+} */

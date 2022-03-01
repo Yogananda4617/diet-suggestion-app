@@ -1,0 +1,56 @@
+.BMI {
+    font-family: sans-serif;
+    /* text-align: center; */
+    width: 400px;
+    padding-top: 50px;
+    padding-left: 50px;
+   
+    /* color: rgb(223, 156, 97);; */
+  }
+.BMIform{
+    border: 5px double green;
+    padding: 20px;
+    background: rgb(248, 242, 186);;
+  }
+.BMIheading{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(167, 37, 37);
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgb(132, 243, 67);
+  }
+.BMIheight{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+.height{
+  padding: 15px;
+  font-family:sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  
+  }
+.heightInput{
+  padding: 20px;
+  }
+.BMIweight{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.BMIweight{
+  padding: 15px;
+  font-family:sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  }
+#weight{
+  border: 2px solid black;
+  
+}
+#BMIcal{
+  margin: 40px;
+  background: rgb(37, 50, 233);
+}

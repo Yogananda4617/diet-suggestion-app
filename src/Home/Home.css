@@ -1,0 +1,128 @@
+/* .slider {
+    position: absolute;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+  }
+  
+  .image {
+    width: 1000px;
+    height: 600px;
+    border-radius: 10px;
+  }
+  
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  } */
+  
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.Section_top{
+    width: 95%;
+    height: 95%;
+    margin-left: 38px;
+    margin-top: 10px;
+    border: 5px double rgb(226, 17, 164);
+    overflow: hidden;
+    /* position: relative; */
+    background-image: url(http://auntpearliesue.com/wp-content/uploads/2015/01/Healthy-diet-tips-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 30s infinite ease-in-out;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+/* .content h1{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.content h1 span{
+    color: #111;
+}
+.content a{
+    background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+} 
+.content a:hover{
+    background: #034e88;
+    color: #fff;
+}*/
+@keyframes change{
+    0%
+    {
+        background-image: url(https://media2.s-nbcnews.com/i/newscms/2017_02/1187711/diet-tips-start-today-stock-tease-170112_8b3e9e8e0a55eb52eaa450ac5762f215.jpg);
+    }
+    20%
+    {
+        background-image: url(http://auntpearliesue.com/wp-content/uploads/2015/01/Healthy-diet-tips-2.jpg);
+    }
+    40%
+    {
+        background-image: url(https://i.pinimg.com/564x/10/c3/09/10c309b4c796fbc206f7a5a8f7f533f5.jpg);
+    }
+    60%
+    {
+        background-image: url(http://www.onforlife.com/wp-content/uploads/2012/04/mindful-eating.jpg);
+    }
+    80%
+    {
+        background-image: url(https://www.fyeye.org/wp-content/uploads/2019/04/1920x1080TechDiet-1.jpg);
+    }
+    100%
+    {
+        background-image: url(https://www.spotebi.com/wp-content/uploads/2016/12/practice-self-control-spotebi-workout-motivation.jpg);
+    }
+}
