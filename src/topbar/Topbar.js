@@ -32,7 +32,7 @@ import "./topbar.css";
                     </ul>
               </div>
               </li>
-              <li>logout</li>
+              {/* <li>logout</li> */}
             </ul>
          </div>
      )
