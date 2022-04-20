@@ -87,7 +87,7 @@ export default function BMI() {
       </div>
       </div>
       <div className="BMIchart">
-        <img src="https://i1.wp.com/caregiversrespite.com/wp-content/uploads/2016/08/bmi-chart.jpg" alter="BMI chart"/>
+        <img src="https://i1.wp.com/caregiversrespite.com/wp-content/uploads/2016/08/bmi-chart.jpg" alt="BMI chart"/>
       </div>
     </div>
   );
