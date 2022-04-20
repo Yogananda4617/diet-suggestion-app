@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
-import ImageSlider from './components/ImageSlider';
-import { SliderData } from './components/SliderData';
+// import ImageSlider from './components/ImageSlider';
+// import { SliderData } from './components/SliderData';
 
 export default function Home(){
     return( 
